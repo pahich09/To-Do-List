@@ -1,0 +1,49 @@
+.todo {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.search-panel input {
+  width: 49%;
+}
+.search-panel .btn-group {
+  width: 49%;
+}
+.todo ul {
+  margin-top: 10px;
+}
+.todo .todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  line-height: 30px;
+}
+.todo .todo-item button {
+  width: 30px;
+  height: 30px;
+  margin-left: 7px;
+}
+.todo-item span {
+  flex-grow: 1;
+}
+.todo-item span.marked {
+  font-weight: bold;
+  color: #28a745;
+}
+.todo-item span.done {
+  text-decoration: line-through;
+}
+.form-todo {
+  margin-top: 10px;
+}
+.form-todo input {
+  margin-right: 7px;
+}
+.status-todo {
+  margin-bottom: 5px;
+  text-align: center;
+  color: #6c757d;
+}
+.status-todo span {
+  font-weight: bold;
+}
